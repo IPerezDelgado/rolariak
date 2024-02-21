@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>erROLda_formatuarekin.csv</name>
+	<open>1</open>
+	<Schema name="erROLda_formatuarekin" id="S_erROLda_formatuarekin_ISS">
+		<SimpleField type="int" name="unnamed"><displayName>&lt;b&gt;&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Izena"><displayName>&lt;b&gt;Izena&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Helbidea"><displayName>&lt;b&gt;Helbidea&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<scale>2.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b></b></td><td>$[erROLda_formatuarekin/unnamed]</td></tr>
+  <tr><td><b>Izena</b></td><td>$[erROLda_formatuarekin/Izena]</td></tr>
+  <tr><td><b>Helbidea</b></td><td>$[erROLda_formatuarekin/Helbidea]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="hlightPointStyle0">
+		<IconStyle>
+			<color>ffff00ff</color>
+			<scale>2.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b></b></td><td>$[erROLda_formatuarekin/unnamed]</td></tr>
+  <tr><td><b>Izena</b></td><td>$[erROLda_formatuarekin/Izena]</td></tr>
+  <tr><td><b>Helbidea</b></td><td>$[erROLda_formatuarekin/Helbidea]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<color>ffff00ff</color>
+			<scale>2.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b></b></td><td>$[erROLda_formatuarekin/unnamed]</td></tr>
+  <tr><td><b>Izena</b></td><td>$[erROLda_formatuarekin/Izena]</td></tr>
+  <tr><td><b>Helbidea</b></td><td>$[erROLda_formatuarekin/Helbidea]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="normPointStyle0">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<scale>2.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b></b></td><td>$[erROLda_formatuarekin/unnamed]</td></tr>
+  <tr><td><b>Izena</b></td><td>$[erROLda_formatuarekin/Izena]</td></tr>
+  <tr><td><b>Helbidea</b></td><td>$[erROLda_formatuarekin/Helbidea]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>erROLda_formatuarekin</name>
+		<open>1</open>
+		<Placemark>
+			<name>AGRUPACIÓN DE ROL Y JUEGOS DE MESA ATLAS</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="Izena">AGRUPACIÓN DE ROL Y JUEGOS DE MESA ATLAS</SimpleData>
+					<SimpleData name="Helbidea">Calle Hombrados Oñatibia 1, bajo trasera (Errenteria¸ Gipuzkoa)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-1.895048699999997,43.30798250000002,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALAVESA DE MODELISMO, SIMULACIÓN HISTÓRICA, ROL Y ESTRATEGIA KYUDEN-GASTEIZ</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">1</SimpleData>
+					<SimpleData name="Izena">ALAVESA DE MODELISMO, SIMULACIÓN HISTÓRICA, ROL Y ESTRATEGIA KYUDEN-GASTEIZ</SimpleData>
+					<SimpleData name="Helbidea">C/Cuchillería, 75 - bajo (Vitoria-Gasteiz¸ Araba/Álava)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.671628199999991,42.85010649999996,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ASOCIACION DE JUEGOS DE ROL ENKARMAGIC</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">2</SimpleData>
+					<SimpleData name="Izena">ASOCIACION DE JUEGOS DE ROL ENKARMAGIC</SimpleData>
+					<SimpleData name="Helbidea">Lanzagorta etorbidea 25, 1. B (Zalla¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-3.13218,43.2111827,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ASOCIACION DE JUEGOS DE SIMULACION, ESTRATEGIA Y ROL LA MANO NEGRA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">3</SimpleData>
+					<SimpleData name="Izena">ASOCIACION DE JUEGOS DE SIMULACION, ESTRATEGIA Y ROL LA MANO NEGRA</SimpleData>
+					<SimpleData name="Helbidea">av. iparraguirre 91a 2a santurtzi (Santurtzi¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-3.046173300000001,43.3374664,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ASOCIACION DE JUEGOS DE MESA Y ROL KIMERA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">4</SimpleData>
+					<SimpleData name="Izena">ASOCIACION DE JUEGOS DE MESA Y ROL KIMERA</SimpleData>
+					<SimpleData name="Helbidea">C/ Gaztelumendi, nº 6 piso 2º A (Getxo¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-3.006676199999982,43.35335190000002,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ASOCIACION JUVENIL DE JUGADORES DE ESTRATEGIA Y ROL ROLMASTER</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">5</SimpleData>
+					<SimpleData name="Izena">ASOCIACION JUVENIL DE JUGADORES DE ESTRATEGIA Y ROL ROLMASTER</SimpleData>
+					<SimpleData name="Helbidea">Pº de Borroto, 5-3º C. (Donostia / San Sebastián¸ Gipuzkoa)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-1.989374300000015,43.30188019999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ASOCIACIÓN CULTURAL DE ROL Y AIRSOFT A.C.R.A.</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">6</SimpleData>
+					<SimpleData name="Izena">ASOCIACIÓN CULTURAL DE ROL Y AIRSOFT A.C.R.A.</SimpleData>
+					<SimpleData name="Helbidea">C/ Donosti Ibilbidea, 11-3º A (Astigarraga¸ Gipuzkoa)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-1.948057000000012,43.2845512,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ASOCIACIÓN DE JUEGOS DE SIMULACION, ESTRATEGIA Y ROL RIGOR MORTIS</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">7</SimpleData>
+					<SimpleData name="Izena">ASOCIACIÓN DE JUEGOS DE SIMULACION, ESTRATEGIA Y ROL RIGOR MORTIS</SimpleData>
+					<SimpleData name="Helbidea">Calle Tximelarre Goikoa, 29 Lonja (Galdakao¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.846451500000007,43.2328279,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ASOCIACIÓN DE JUEGOS DE ROL HABITANTES DE INNSMOUTH</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">8</SimpleData>
+					<SimpleData name="Izena">ASOCIACIÓN DE JUEGOS DE ROL HABITANTES DE INNSMOUTH</SimpleData>
+					<SimpleData name="Helbidea">Urbita 6 (Urnieta¸ Gipuzkoa)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-1.989349400000013,43.2462659,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ASOCIACIÓN RECREATIVA ARRONTEGI - ROL JOLASA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">9</SimpleData>
+					<SimpleData name="Izena">ASOCIACIÓN RECREATIVA ARRONTEGI - ROL JOLASA</SimpleData>
+					<SimpleData name="Helbidea">CASTILLA LA MANCHA Nº 8 BAJO (Barakaldo¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.98470459999999,43.29626539999997,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Asociación lúdica de juegos de mesa y rol en familia GALUK</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">10</SimpleData>
+					<SimpleData name="Izena">Asociación lúdica de juegos de mesa y rol en familia GALUK</SimpleData>
+					<SimpleData name="Helbidea">Orixe 2, 1B (Bilbao¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.957231999999999,43.2774721,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BERMEOKO MAHAI JOKOAK ETA ROL ESKOLA ELKARTEA (BREE 40K)</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">11</SimpleData>
+					<SimpleData name="Izena">BERMEOKO MAHAI JOKOAK ETA ROL ESKOLA ELKARTEA (BREE 40K)</SimpleData>
+					<SimpleData name="Helbidea">GIZARTE ETA KULTUR ETXEA, calle IRAKASKINTZA nº 14-16 (Bermeo¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.721602299999994,43.42122579999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BILBAINA DE ROL LAS PUERTAS DE MORIA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">12</SimpleData>
+					<SimpleData name="Izena">BILBAINA DE ROL LAS PUERTAS DE MORIA</SimpleData>
+					<SimpleData name="Helbidea">Filomena Baldezate, 5 - bajo (Bilbao¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.944349300000006,43.24935170000001,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CLUB DE ROL ASGARD</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">13</SimpleData>
+					<SimpleData name="Izena">CLUB DE ROL ASGARD</SimpleData>
+					<SimpleData name="Helbidea">calle Solokoetxe, 8-1º B (Basauri¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.880034200000015,43.23906679999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CLUB DE ROL DRACONIA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">14</SimpleData>
+					<SimpleData name="Izena">CLUB DE ROL DRACONIA</SimpleData>
+					<SimpleData name="Helbidea">calle Ongarai, s/n GURE ETXEA (Ermua¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.507888099999998,43.1899172,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CULTURAL DE ROL ESTRATEGIA Y SIMULACION IMAGO MUNDI</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">15</SimpleData>
+					<SimpleData name="Izena">CULTURAL DE ROL ESTRATEGIA Y SIMULACION IMAGO MUNDI</SimpleData>
+					<SimpleData name="Helbidea">calle Gordóniz, 44 - 9º - Dpto. 4 (Bilbao¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.945497300000008,43.25388770000001,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CULTURAL DE ROL EN VIVO Y RECREACION HISTORICA MITOS</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">16</SimpleData>
+					<SimpleData name="Izena">CULTURAL DE ROL EN VIVO Y RECREACION HISTORICA MITOS</SimpleData>
+					<SimpleData name="Helbidea">C/Cuchillería, 4 - 3º (Vitoria-Gasteiz¸ Araba/Álava)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.670572200000008,42.84760840000003,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CULTURAL HERENSUGE ROL TALDEA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">17</SimpleData>
+					<SimpleData name="Izena">CULTURAL HERENSUGE ROL TALDEA</SimpleData>
+					<SimpleData name="Helbidea">c/Pío XII, nº 11-3º. C.P. 01400.LLODIO ( (Laudio/Llodio¸ Araba/Álava)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.962597699999994,43.14224490000002,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DE DIVULGACION, PROMOCION Y ENSEÑANZA DEL JUEGO DE ROL DE VITORIA-GASTEIZ TIEMPO DE DRAGONES</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">18</SimpleData>
+					<SimpleData name="Izena">DE DIVULGACION, PROMOCION Y ENSEÑANZA DEL JUEGO DE ROL DE VITORIA-GASTEIZ TIEMPO DE DRAGONES</SimpleData>
+					<SimpleData name="Helbidea">Salvatierra, 5-10º Izda. (Vitoria-Gasteiz¸ Araba/Álava)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.423891300000012,42.84670589999997,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DE JUEGOS DE ROL Y ESTRATEGIA ARCANUM</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">19</SimpleData>
+					<SimpleData name="Izena">DE JUEGOS DE ROL Y ESTRATEGIA ARCANUM</SimpleData>
+					<SimpleData name="Helbidea">calle Luis Briñas, 41 (Bilbao¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.949244800000006,43.25915129999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DE JUEGOS DE ROL GREYMALKIN</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">20</SimpleData>
+					<SimpleData name="Izena">DE JUEGOS DE ROL GREYMALKIN</SimpleData>
+					<SimpleData name="Helbidea">calle Las Mercedes, 28 - esc. C - 2º izda. (Getxo¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-3.012364200000006,43.32733809999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DE JUEGOS DE SIMULACION, ESTRATEGIA Y ROL NOCTURNAM</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">21</SimpleData>
+					<SimpleData name="Izena">DE JUEGOS DE SIMULACION, ESTRATEGIA Y ROL NOCTURNAM</SimpleData>
+					<SimpleData name="Helbidea">Askatasuna Etorbidea, 2-6º izda. (Barakaldo¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.933034499999987,43.25024410000002,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DE JUGADORES DE ROL DE DEUSTO SAJAR</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">22</SimpleData>
+					<SimpleData name="Izena">DE JUGADORES DE ROL DE DEUSTO SAJAR</SimpleData>
+					<SimpleData name="Helbidea">calle Julio Urquijo, 3-3º E - Deusto (Bilbao¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.953862699999998,43.268968,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DE ROL DIE BLAUEN JAGERMEISTER</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">23</SimpleData>
+					<SimpleData name="Izena">DE ROL DIE BLAUEN JAGERMEISTER</SimpleData>
+					<SimpleData name="Helbidea">Zabalbide, 51-Esc. Drcha. 9º C (Bilbao¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.913501000000005,43.25543999999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ELBERETH ROL ELKARTEA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">24</SimpleData>
+					<SimpleData name="Izena">ELBERETH ROL ELKARTEA</SimpleData>
+					<SimpleData name="Helbidea">calle San Biator, 3 - 12 B (Basauri¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.886352299999995,43.2377231,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ERNEAK BASAURIKO ROL ELKARTEA (CLUB DE ROL DE BASAURI LOS PREVENIDOS</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">25</SimpleData>
+					<SimpleData name="Izena">ERNEAK BASAURIKO ROL ELKARTEA (CLUB DE ROL DE BASAURI LOS PREVENIDOS</SimpleData>
+					<SimpleData name="Helbidea">Kareaga Goikoa, 73-2º bajo (Basauri¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.895296800000018,43.23812299999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JOKOAN ROL ELKARTEA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">26</SimpleData>
+					<SimpleData name="Izena">JOKOAN ROL ELKARTEA</SimpleData>
+					<SimpleData name="Helbidea">Artekale kalea 19 - Las Karreras (Abanto y Ciérvana-Abanto Zierbena¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-3.096725499999995,43.31826419999997,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JUVENIL CLUB DE ROL MIGOSH</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">27</SimpleData>
+					<SimpleData name="Izena">JUVENIL CLUB DE ROL MIGOSH</SimpleData>
+					<SimpleData name="Helbidea">calle Sertutxa, 4-1º B (Sopela¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.979395299999985,43.38097560000001,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JUVENIL DE JUEGOS DE ROL HOLOCAUSTO</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">28</SimpleData>
+					<SimpleData name="Izena">JUVENIL DE JUEGOS DE ROL HOLOCAUSTO</SimpleData>
+					<SimpleData name="Helbidea">calle Luis López Osés, 2-3º C (Getxo¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-3.0074807,43.3311877,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JUVENIL DE JUEGOS DE ROL LABERINTO</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">29</SimpleData>
+					<SimpleData name="Izena">JUVENIL DE JUEGOS DE ROL LABERINTO</SimpleData>
+					<SimpleData name="Helbidea">calle Gordóniz, 32 - 2º izq. (Bilbao¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.942765000000016,43.25660010000001,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JUVENIL DE JUEGOS DE ROL Y ESTRATEGIA NAGGAROTH DROWS</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">30</SimpleData>
+					<SimpleData name="Izena">JUVENIL DE JUEGOS DE ROL Y ESTRATEGIA NAGGAROTH DROWS</SimpleData>
+					<SimpleData name="Helbidea">calle Aldapas, 3-1º A - Algorta (Getxo¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-3.005792000000005,43.3563828,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JUVENIL DE JUEGOS DE SIMULACION, ESTRATEGIA Y ROL DE BILBAO GALUK</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">31</SimpleData>
+					<SimpleData name="Izena">JUVENIL DE JUEGOS DE SIMULACION, ESTRATEGIA Y ROL DE BILBAO GALUK</SimpleData>
+					<SimpleData name="Helbidea">calle Trauko, 21, bajo centro (Bilbao¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.918843699999996,43.26655309999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KONTU-KONTARI MUNGIALDEKO ROL ELKARTEA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">32</SimpleData>
+					<SimpleData name="Izena">KONTU-KONTARI MUNGIALDEKO ROL ELKARTEA</SimpleData>
+					<SimpleData name="Helbidea">calle Aita Elorriaga, 13-4º A (Mungia¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.844459900000009,43.35334319999998,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MIRARI ROL JOKOAK ELKARTEA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">33</SimpleData>
+					<SimpleData name="Izena">MIRARI ROL JOKOAK ELKARTEA</SimpleData>
+					<SimpleData name="Helbidea">LORETO ARRIOLA 25 BAJO LOCAL (Vitoria-Gasteiz¸ Araba/Álava)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.695034999999988,42.85843169999998,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROLARIAK EUSKAL ROL JOKO ETA KULTURA ELKARTEA</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">34</SimpleData>
+					<SimpleData name="Izena">ROLARIAK EUSKAL ROL JOKO ETA KULTURA ELKARTEA</SimpleData>
+					<SimpleData name="Helbidea">KARMENGO AMA KALEA 28, BEHEA (Donostia / San Sebastián¸ Gipuzkoa)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-1.981231299999981,43.31833399999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SUAKER ESTRATEGI ETA ROL JOKOEN ELKARTEA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">35</SimpleData>
+					<SimpleData name="Izena">SUAKER ESTRATEGI ETA ROL JOKOEN ELKARTEA</SimpleData>
+					<SimpleData name="Helbidea">ALLEMENDI 1 (Zarautz¸ Gipuzkoa)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.181544599999996,43.28460279999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VIZCAINA DE ROL Y SIMULACION - ESTRATEGIA FEVRYS</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">36</SimpleData>
+					<SimpleData name="Izena">VIZCAINA DE ROL Y SIMULACION - ESTRATEGIA FEVRYS</SimpleData>
+					<SimpleData name="Helbidea">Talaieta, 25-1º (Getxo¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-3.013937999999987,43.35664259999999,28</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WARHAMMER LEKITTO ROL ELKARTEA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_erROLda_formatuarekin_ISS">
+					<SimpleData name="unnamed">37</SimpleData>
+					<SimpleData name="Izena">WARHAMMER LEKITTO ROL ELKARTEA</SimpleData>
+					<SimpleData name="Helbidea">Resurrección María de Azkue 5 (Lekeitio¸ Bizkaia)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-2.504129299999984,43.3638537,28</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
